@@ -1,1 +1,11 @@
-
+name: k
+description: k
+branding:
+  color: blue
+  icon: x
+  
+  
+inputs:
+  - name: some
+    default: 5
+  - name: ${{ inputs.some }}
