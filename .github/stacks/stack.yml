@@ -1,5 +1,7 @@
 name: kkskskss
+
 description: k
+
 branding:
   color: blue
   icon: x
@@ -8,4 +10,5 @@ branding:
 inputs:
   - name: some
     default: 5
-  - name: ${{ inputs.some }}
+  - name: soo
+    default: ${{ inputs.some }}
